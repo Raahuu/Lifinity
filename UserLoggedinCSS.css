@@ -1,0 +1,461 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Trebuchet MS;
+
+}
+	
+	.Topbar
+	{
+		background-color:white;			
+		position:fixed;
+		width:100%;
+		height:9%;
+		box-shadow: 0px 1px 5px grey;
+		z-index:5;
+	}
+	.lifi
+	{
+		color:#1f3040;
+		margin:1%;
+		margin-left:1.5%;
+		font-size:192%;
+		font-family:Trebuchet MS;
+		font-weight:normal;
+		width:10.5%;
+		cursor:pointer;
+		height:60px;
+		float:left;
+	}
+	.lifi:hover
+	{
+		color:#ef406f;
+	}
+	.bloodd
+	{
+		font-family:Arial; 
+		font-size:95%;
+		font-weight:bold;
+		position:absolute;
+		margin-top:22px;
+		width:8%;
+		height:8px;
+		padding-top:4px;
+		padding-bottom:12px;
+		text-align:center;
+		background-color:red;
+		color:white;
+		margin-left:-4%;
+		border-radius:40px;
+	}
+	.menubar
+	{
+		width:55%;
+		margin-left:40%;
+	}
+	.menu
+	{
+		font-size:100%;
+		color:#1f3040;
+		font-family:Trebuchet MS;
+		font-weight:semi-condensed;
+		position:relative;
+		margin-left:2%;
+		cursor:pointer;
+		font-weight:bold;
+		width:auto;
+		padding-left:30px;
+		padding-right:30px;
+		height:40px;
+		margin-top:10px;
+		background-color:transparent;
+		border:none;
+		outline:none;
+	}
+	.menu:hover
+	{
+		color:#2ae8ae;
+		border-bottom: 4px #2ae8ae solid;
+		opacity:0.8;
+	}
+	
+	.btnn
+	{
+		cursor:pointer;
+		color:white;
+		font-family:trebuchet ms;
+		font-size:100%;
+		font-weight:bold;
+		position:relative;
+		top:5px;
+		background-color:#2ae8ae;
+		outline:none;
+		border:none;
+	}
+	.box
+	{
+		width:25%;
+		height:55%;
+		box-shadow:0px 1px 5px grey;
+		margin-left:50%;
+		margin-top:8%;
+		border-radius:25px;
+	}
+	.txtbox
+	{
+		width:25%;
+		height:40px;
+		margin-left:15%;
+		padding-left:5px;
+		border:1px solid #2ae8ae;
+		border-radius:10px;
+		outline:none;
+		font-family:trebuchet Ms;
+		font-weight:bold;
+		font-size:80%;
+	}
+	.subbox
+	{
+		width:45%;
+		height:50px;
+		margin-left:25%;
+		font-family:trebuchet ms;
+		box-shadow:0px 1px 5px grey;
+		border-radius:10px;
+		border:none;
+		cursor:pointer;
+		outline:none;
+		font-size:110%;
+		background-color:#2ae8ae;
+		color:#ebeff5;
+		text-align:center;
+	}
+	.checkbox
+	{
+		margin-left:15%;
+		font-family:Arial;
+		width:7%;
+		height:3%;
+	}
+	.h2head
+	{
+		margin-left:17%;
+		font-size:200%;
+		position:relative;
+		top:5%;
+		font-family:trebuchet ms;
+		font-weight:bold;
+		color:#1f3040;
+	}
+	.SignUp:hover
+	{
+		text-decoration:underline;
+	}
+	.navbar
+	{
+		width:20%;
+		height:100%;
+		background-color:#1f3040;
+		float:left;
+		position:fixed;
+		margin-top:6px;
+	}
+	.navtop
+	{
+		height:25%;
+		background-color:#13212e;
+	}
+	.navitem
+	{
+		height:5%;
+		color:white;
+		font-family:trebuchet ms;
+		font-weight:bold;
+		padding-left:5%;
+		position:relative;
+		top:20px;
+		
+	}
+	.navitem:hover
+	{
+		background-color: #2ae8ae;
+	}
+	
+	.notmember
+	{
+		margin-left:25%;
+		font-weight:bold;
+		font-size:60%;
+		font-family:trebuchet ms;
+	}
+	.hrule
+	{
+		height:2px;
+		background-color:black;
+	}
+	
+	.Bellicon
+	{
+		width:50px;
+		height:25px;
+		float:right;
+		position:relative;
+		top:20px;
+		cursor:pointer;
+	}
+	.Bellicon:hover
+	{
+		opacity:0.6;
+		border-bottom: 4px #2ae8ae solid;
+	}
+	
+	.box1
+	{
+		width:70%;
+		height:800px;
+		box-shadow:0px 1px 5px grey;
+		margin-left:25%;
+		border-radius:25px;
+		position:relative;
+		top:20px;
+		z-index:1;
+	}
+	
+	.profpic
+	{
+		width:33%;
+		height:90px;
+		background-color:white;
+		position:relative;
+		top:20px;
+		left:25%;
+		border-radius:60px;
+	}
+	.profname
+	{
+		color:white;
+		font-family:trebuchet ms;
+		font-weight:bold; 
+		font-size:92%;
+		position:relative;
+		top:25px;
+	}
+	pre 
+	{
+		display: inline;
+		margin: 0;
+	}
+	.editbtn
+	{
+		width:10%;
+		height:45px;
+		text-align:center;
+		font-weight:bold;
+		color:white;
+		font-family:Trebuchet MS;
+		font-size:120%;
+		background-color:blue;
+		margin-left:50%;
+	}
+	ul li
+	{
+		list-style-position:outside;
+		margin-right:5%;
+		position:relative;
+		left:-2%;
+	}	
+	.toptxt
+	{
+		margin-left:5%;
+		margin-right:5%;
+		color:#1f3040;
+		font-size:110%;
+	}
+	.step
+	{
+		position:relative;
+		top:20px;
+		left:5%;
+		color:#05e5c8;
+	}
+	.stepname
+	{
+		position:relative;
+		top:10px;
+		left:5%;
+		color:#1f3040;
+	}
+	.introhome
+	{
+		position:relative;
+		left:7%;
+		top:25px;
+		margin-right:15%;
+		text-align:justify;
+	}
+	.Imagebox
+	{
+		width:35%;
+		height:350px;
+		float:left;
+		margin-left:6%;
+		border-radius:10px;
+		background-color:#ebeff5;
+		box-shadow:0px 1px 5px grey;
+		position:relative;
+		margin-top:100px;
+		left:5%;
+	}
+	.linkname
+	{
+		width:100%;
+		height:120px;
+		background-color:white;
+		position:relative;
+		top:230px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-family:trebuchet ms;
+		font-weight:bold;
+		font-size:80%;
+		text-align:center;
+		padding-top:1px;
+		line-height:18px;
+	}
+	.infoimg
+	{
+		height:190px;
+		width:100%;
+	}
+	a
+	{
+		text-decoration:none;
+		color:black;
+	}
+	a:hover
+	{
+		color:red;
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+@media only screen and (max-width: 450px) and (min-width: 150px)
+{
+	.lifi
+	{
+		margin-top:4%;
+		margin-left:4%;
+		font-size:152%;
+	}
+	.menu
+	{
+		font-size:100%;
+		color:#1f3040;
+		font-family:Trebuchet MS;
+		font-weight:semi-condensed;
+		position:relative;
+		margin-left:2%;
+		font-weight:bold;
+		width:auto;
+		padding-left:30px;
+		padding-right:30px;
+		height:40px;
+		display:none;
+		margin-top:10px;
+		background-color:transparent;
+		border:none;
+		outline:none;
+	}
+	.box
+	{
+		width:55%;
+		height:35%;
+		margin-left:35%;
+		margin-top:20%;
+	}
+	.h2head
+	{
+		margin-left:25%;
+		font-size:120%;
+	}
+	.txtbox
+	{
+		width:65%;
+		height:7%;
+		font-size:60%;
+	}
+	.subbox
+	{
+		height:6%;
+		font-size:60%;
+	}
+	.menu_button
+	{
+		display:block;
+		background-color:#1f3040;
+		border:none;
+		height:3px;
+		margin:4px;
+		width:21px;
+	}
+	.menubtnbor
+	{
+		width:22px;
+		margin-left:58%;
+		margin-top:2%;
+	}
+	.notmember
+	{
+		margin-left:15%;
+		position:relative;
+		top:-20px;
+		font-weight:bold;
+		font-size:50%;
+		font-family:trebuchet ms;
+	}
+	
+	.box1
+	{
+		width:70%;
+		height:450px;
+		box-shadow:0px 1px 5px grey;
+		margin-left:-5%;
+		border-radius:25px;
+		position:relative;
+		top:20px;
+		z-index:1;
+	}
+	.Imagebox
+	{
+		width:75%;
+		height:250px;
+		float:left;
+		margin-left:6%;
+		position:relative;
+		margin-top:100px;
+		left:5%;
+	}
+	.linkname
+	{
+		width:100%;
+		height:120px;
+		position:relative;
+		top:130px;
+		font-size:80%;
+		text-align:center;
+		padding-top:1px;
+		line-height:18px;
+	}
+	
+}	

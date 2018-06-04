@@ -1,0 +1,396 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Trebuchet MS;
+}
+	
+	.Topbar
+	{
+		background-color:white;			
+		position:fixed;
+		width:100%;
+		height:9%;
+		opacity:0.8;
+		box-shadow: 0px 1px 5px grey;
+	}
+	.lifi
+	{
+		color:#1f3040;
+		margin:1%;
+		margin-left:1.5%;
+		font-size:192%;
+		font-family:Trebuchet MS;
+		font-weight:normal;
+		width:10.5%;
+		cursor:pointer;
+		height:60px;
+		float:left;
+	}
+	.lifi:hover
+	{
+		color:#ef406f;
+	}
+	.menubar
+	{
+		width:55%;
+		margin-left:40%;
+	}
+	.menu
+	{
+		font-size:100%;
+		color:#1f3040;
+		font-family:Trebuchet MS;
+		font-weight:semi-condensed;
+		position:relative;
+		margin-left:2%;
+		cursor:pointer;
+		font-weight:bold;
+		width:auto;
+		padding-left:30px;
+		padding-right:30px;
+		height:40px;
+		margin-top:10px;
+		background-color:transparent;
+		border:none;
+		outline:none;
+	}
+	.menu:hover
+	{
+		color:#2ae8ae;
+		border-bottom: 4px #2ae8ae solid;
+		opacity:0.8;
+	}
+	
+	.btnn
+	{
+		cursor:pointer;
+		color:white;
+		font-family:trebuchet ms;
+		font-size:100%;
+		font-weight:bold;
+		position:relative;
+		top:5px;
+		background-color:#2ae8ae;
+		outline:none;
+		border:none;
+	}
+	.box
+	{
+		width:25%;
+		height:55%;
+		box-shadow:0px 1px 5px grey;
+		margin-left:50%;
+		margin-top:8%;
+		border-radius:25px;
+	}
+	.txtbox
+	{
+		width:65%;
+		height:7%;
+		margin-left:15%;
+		padding-left:5px;
+		border:1px solid #2ae8ae;
+		font-size:80%;
+	}
+	.subbox
+	{
+		width:45%;
+		height:8%;
+		margin-left:25%;
+		font-family:trebuchet ms;
+		box-shadow:0px 1px 5px grey;
+		border-radius:10px;
+		border:none;
+		outline:none;
+		font-size:110%;
+		background-color:#2ae8ae;
+		color:#ebeff5;
+		text-align:center;
+	}
+	.checkbox
+	{
+		margin-left:15%;
+		font-family:Arial;
+		width:7%;
+		height:3%;
+	}
+	.h2head
+	{
+		margin-left:17%;
+		font-size:200%;
+		position:relative;
+		top:5%;
+		font-family:trebuchet ms;
+		font-weight:bold;
+		color:#1f3040;
+	}
+	.SignUp:hover
+	{
+		text-decoration:underline;
+	}
+	.navbar
+	{
+		width:20%;
+		height:90.9%;
+		background-color:#1f3040;
+		float:left;
+		position:fixed;
+		margin-top:6px;
+	}
+	.navtop
+	{
+		height:25%;
+		background-color:#13212e;
+	}
+	.navitem
+	{
+		height:5%;
+		color:white;
+		font-family:trebuchet ms;
+		font-weight:bold;
+		padding-left:5%;
+		position:relative;
+		top:20px;
+		
+	}
+	.navitem:hover
+	{
+		background-color: #2ae8ae;
+	}
+	
+	.Alertbar
+	{
+		height:40px;
+		width:76%;
+		margin-top:8%;
+		position:relative;
+		box-shadow:0px 1px 5px grey;
+		left:-2%;
+		border-radius:10px;
+		text-align:center;
+		color:white;
+		font-family:trebuchet ms;
+		font-size:130%;
+		font-weight:bold;
+		background-color:#2ae8ae;
+		float:right;
+		z-index:2;
+		
+	}
+	.databar
+	{
+		min-height:100px;
+		width:76%;
+		z-index:1;
+		position:relative;
+		top:-2%;
+		left:-2%;
+		border-radius:10px;
+		float:right;
+		background-color:#ebeff5;
+	}
+	.databaritem
+	{
+		position:relative;
+		top:30px;
+		margin-left:2%;
+		font-size:70%;
+		font-weight:bold;
+		font-family:trebuchet ms;
+		
+	}
+	.seconddiv
+	{
+		float:right;
+		height:90.8%;
+		width:80%;
+		position:relative;
+		top:6px;
+	}
+	.clear
+	{
+		clear:both;
+	}
+	.Bellicon
+	{
+		width:50px;
+		height:25px;
+		float:right;
+		position:relative;
+		top:20px;
+		cursor:pointer;
+	}
+	.Bellicon:hover
+	{
+		opacity:0.6;
+		border-bottom: 4px #2ae8ae solid;
+	}
+	.srchbox
+	{
+		width:80%;
+		height:40px;
+		border:2px #2ae8ae solid;
+		position:relative;
+		top:-1px;
+		left:-25%;
+		font-size:120%;
+		padding-left:2%;
+		font-family:trebuchet ms;
+	}
+	.searchicon
+	{
+		width:5%;
+		height:32px;;
+		position:relative;
+		left:-25%;
+		top:12px;
+		border:2px #2ae8ae solid;
+		padding:2px;
+	}
+	.qrscan
+	{
+		width:15%;
+		height:200px;
+		box-shadow:0px 1px 5px grey;
+		position:relative;
+		top:50px;
+		left:70px;
+		float:left;
+	}
+	.details
+	{
+		float:right;
+		width:70%;
+		height:500px;
+		box-shadow:0px 1px 5px grey;
+		position:relative;
+		top:50px;
+		left:-30px;
+	}
+	.Alertbar
+	{
+		height:40px;
+		width:76%;
+		margin-top:8%;
+		position:relative;
+		box-shadow:0px 1px 5px grey;
+		left:-2%;
+		top:-50px;
+		border-radius:10px;
+		text-align:center;
+		color:white;
+		font-family:trebuchet ms;
+		font-size:130%;
+		font-weight:bold;
+		background-color:#2ae8ae;
+		float:right;
+		z-index:2;
+		
+	}
+	.databar
+	{
+		min-height:100px;
+		width:76%;
+		z-index:1;
+		position:relative;
+		top:-5%;
+		left:-2%;
+		border-radius:10px;
+		float:right;
+		background-color:#ebeff5;
+	}
+	.prescription
+	{
+		margin-left:30%;
+		text-decoration:none;
+	}
+	.prescription:hover
+	{
+		text-decoration:underline;
+	}
+	.box1
+	{
+		width:70%;
+		height:750px;
+		box-shadow:0px 1px 5px grey;
+		margin-left:25%;
+		border-radius:25px;
+	}
+
+@media only screen and (max-width: 450px) and (min-width: 150px)
+{
+	.lifi
+	{
+		margin-top:4%;
+		margin-left:4%;
+		font-size:152%;
+	}
+	.menu
+	{
+		font-size:100%;
+		color:#1f3040;
+		font-family:Trebuchet MS;
+		font-weight:semi-condensed;
+		position:relative;
+		margin-left:2%;
+		font-weight:bold;
+		width:auto;
+		padding-left:30px;
+		padding-right:30px;
+		height:40px;
+		display:none;
+		margin-top:10px;
+		background-color:transparent;
+		border:none;
+		outline:none;
+	}
+	.box
+	{
+		width:55%;
+		height:35%;
+		margin-left:35%;
+		margin-top:20%;
+	}
+	.h2head
+	{
+		margin-left:25%;
+		font-size:120%;
+	}
+	.txtbox
+	{
+		width:65%;
+		height:7%;
+		font-size:60%;
+	}
+	.subbox
+	{
+		height:6%;
+		font-size:60%;
+	}
+	.menu_button
+	{
+		display:block;
+		background-color:#1f3040;
+		border:none;
+		height:3px;
+		margin:4px;
+		width:21px;
+	}
+	.menubtnbor
+	{
+		width:22px;
+		margin-left:58%;
+		margin-top:2%;
+	}
+	.notmember
+	{
+		margin-left:15%;
+		position:relative;
+		top:-20px;
+		font-weight:bold;
+		font-size:50%;
+		font-family:trebuchet ms;
+	}
+	
+}	
